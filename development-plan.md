@@ -12,3 +12,4 @@
     - **dev branch creation**
 3. **[FIX] : updates the development plan**
 4. **[FEAT] : adds Item header and implementation**
+5. **[FEAT] : adds Inventory header and implementation**
