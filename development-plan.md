@@ -14,3 +14,4 @@
 4. **[FEAT] : adds Item header and implementation**
 5. **[FEAT] : adds Inventory header and implementation**
 6. **[FEAT] : adds Coin enum**
+7. **[FEAT] : adds vending machine state interface and vending machine interface**
