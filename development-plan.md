@@ -1,5 +1,9 @@
 # Vending Machine (C++)
+# Vending Machine (C++)
 
+## Design Patterns:
+- **Singleton Pattern**
+- **State Pattern**
 ## Design Patterns:
 - **Singleton Pattern**
 - **State Pattern**
