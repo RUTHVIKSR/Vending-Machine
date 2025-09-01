@@ -5,6 +5,7 @@
 #include "Coin.h"
 class VendingMachineState;
 class Inventory;
+class Item;
 
 class VendingMachine{
 public:
@@ -16,7 +17,17 @@ public:
     void dispense();
     void refund();
 
-    void setState(std::unique_ptr<VendingMachineState>& state);
+    void setState(std::unique_ptr<VendingMachineState> state);
+
+    Inventory* getInventory();
+    int getBalance() const;
+    Item* getSelectedItem();
+
+    void setSelectedItemCode(const std::string& code);
+    void addBalance(int value);
+    void dispenseItem();
+    void refundBalance();
+    void reset();
 
 private:
     // Private constructor for Singleton pattern
